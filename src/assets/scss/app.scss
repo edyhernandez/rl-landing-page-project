@@ -80,3 +80,138 @@
 /***********************************    My Styles Start Here! *********************************************/
 /**********************************************************************************************************/
 
+body {
+    font-family: open sans, sans-serif;
+}
+
+.container {
+    border: solid red 1px;
+    position: relative;
+}
+
+/* Global Styles Start Here */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: impact, sans-serif;
+}
+
+form {
+    background-color: rgba(0, 84, 164, 0.7);
+    padding: 20px;
+
+    label {
+        color: #ffffff;
+    }
+
+    input[type='submit'] {
+    	font-weight: 900;
+        text-transform: uppercase;
+        padding: 10px 52px;
+
+    }
+}
+
+.share-icons {
+    color: #ffffff;
+}
+
+.btn {
+    display: block;
+    width: 300px;
+    padding: 15px 40px;
+    background-color: #dd3333;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+/* End Global Styles */
+header {
+    .row {
+        max-width: none;
+        margin: 0;
+        margin-left: 0;
+        margin-right: 0;
+
+        .top-nav-bar {
+            background: #443d3d;
+            margin: 0;
+
+            ul {
+                border: solid orange;
+                width: 80%;
+                margin: 0 auto;
+
+                li {
+                    display: inline-block;
+                    padding: 0 5px;
+                }
+            }
+
+            .header-nav {
+                text-align: right;
+
+                ul {
+                    li {
+                        a {
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }
+        }
+
+        .logo-container {
+            position: absolute;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.83);
+            margin: 0;
+            margin-left: 0;
+            margin-right: 0;
+
+
+            h1 {
+                margin: 5px 0;
+
+                img {
+                    max-height: 50px;
+                }
+            }
+        }
+    }
+}
+
+.hero-section-container {
+    background-image: url("../../assets/img/hero-image.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    color: #ffffff;
+    padding: 90px 0 45px 0;
+
+    .row {
+        max-width: 80%;
+
+        .hero-section-content {
+            margin: 80px 0 0 0;
+        }
+
+    }
+}
+
+.row-background-img {
+    height: 135px;
+    background-image: url("../../assets/img/row-image.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: center center;
+}
