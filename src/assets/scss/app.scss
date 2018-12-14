@@ -653,6 +653,14 @@ header.mobile-header {
 		}
     }
 
+    .content-block-container.thank-you {
+		margin-top: 77px;
+
+		.content-block-content {
+			text-align: center;
+		}
+	}
+
 	.logo-block-container {
 
 		.logo-block-content {
@@ -786,6 +794,10 @@ header.mobile-header {
 				padding: 0 0 0 0;
 			}
 		}
+
+		.content-block-container.thank-you {
+			margin: 0;
+		}
 	}
 
 	.footer-wrapper {
@@ -865,7 +877,13 @@ header.mobile-header {
 				padding: 0 0 0 0;
 			}
 		}
+
+		.content-block-container.thank-you {
+			margin: 0;
+		}
 	}
+
+
 
 	.footer-wrapper {
 		footer {

@@ -54,15 +54,15 @@
             </div>
             <div class="small-12 large-4 footer-section columns">
                 <h3>CONTACT US</h3>
-                <form>
+                <form id="contact-us-footer" method="POST">
                     <label>Your Name (required)</label>
-                    <input type="text" name="Name">
+                    <input type="text" name="Name" required>
                     <label>Your Email (required)</label>
-                    <input type="text" name="Email">
+                    <input type="text" name="Email" required>
                     <label>Your Phone</label>
                     <input type="text" name="Phone">
                     <label>Your Message</label>
-                    <textarea rows="4" cols="50"></textarea>
+                    <textarea name="Message" rows="4" cols="50"></textarea>
                     <input type="submit" name="Submit" value="Send">
                 </form>
             </div>
