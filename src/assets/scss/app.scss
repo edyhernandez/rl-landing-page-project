@@ -221,6 +221,10 @@ table {
 	padding: 0 0 30px 0;
 }
 
+.align-right {
+	text-align: right;
+}
+
 .btn {
     display: block;
     width: 100%;
@@ -240,6 +244,36 @@ table {
 	color: #ffffff;
 	transition: all .3s;
 	text-decoration: none;
+}
+
+.alternate-btn {
+	background-color: #f9ea00;
+	color: #000000;
+	display: inline-block;
+	font-size: 1.25rem;
+	padding: 15px 20px;
+	text-transform: uppercase;
+	transition: all .3s;
+
+	span {
+		color: #2b57a6;
+		transition: all .3s;
+	}
+}
+
+.alternate-btn:hover {
+	color: #ffffff;
+	background-color: #000000;
+	text-decoration: none;
+	
+	span {
+		color: #ffffff;
+		transition: all .3s;
+	}
+}
+
+.italic {
+	font-style: italic;
 }
 
 .no-padding {
@@ -517,8 +551,15 @@ header.mobile-header {
 						//border: solid red;
 
 						img {
-							display: block;
 							width: auto;
+							margin: 0 auto;
+						}
+
+						img.full-width {
+							margin: 0;
+							max-width: 600px;
+							width: 100%;
+
 						}
 					}
 				}
@@ -541,7 +582,45 @@ header.mobile-header {
 						margin-bottom: 1.4rem;
 					}
 				}
+
+				.michelin-content {
+					h3 {
+						font-family: open sans, sans-serif;
+						font-size: 1.625rem;
+						font-weight: 800;
+					}
+				}
+
+				.content-image-banner-container {
+					figure {
+						margin: 0 auto 20px auto;
+
+						img {
+							display: block;
+							width: 100%;
+						}
+					}
+				}
 			}
+		}
+	}
+
+	.content-block-container.full-width-headline {
+
+		background-color: #2b57a6;
+
+		.content-block-content {
+			padding: 10px 0;
+		}
+
+		.headline {
+			color: #ffffff;
+			font-family: open sans, sans-serif;
+			font-size: 1.875rem;
+			font-style: italic;
+			font-weight: 900;
+			margin: 0;
+			text-transform: uppercase;
 		}
 	}
 
@@ -832,6 +911,10 @@ header.mobile-header {
 }
 
 @media screen and (min-width: 640px) and (max-width: 1023px) {
+	.align-right {
+		text-align: initial;
+	}
+
 	.hero-section-container {
 		padding: 45px 0 45px 0;
 
